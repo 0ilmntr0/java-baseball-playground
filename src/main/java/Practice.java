@@ -1,7 +1,8 @@
+/*
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class Main {
+public class Practice {
     static final int numberOfDigit = 3; // 몇 자리수 게임을 할것인가
 
     public static void main(String[] args) {
@@ -16,9 +17,10 @@ public class Main {
             if (flag == 0) {
                 break;
             }
-            if (flag != 1) {
-                continue;
-            }
+
+//            if (flag != 1) {
+//                continue;
+//            }
 
 
             String realAnswer;
@@ -60,6 +62,7 @@ public class Main {
 
 
             System.out.println("\n########## 게임 시작 ##########\n");
+
             int numberOfChallenges = 0;
 
             while (true) {
@@ -113,6 +116,9 @@ public class Main {
                 System.out.println(numberOfChallenges + ". " + ballCnt + "볼 " + strikeCnt + "스트라이크\n");
             }
         }
-        System.out.println("게임종료");
+        System.out.println("\n########## 게임 종료 ##########\n");
     }
 }
+
+
+ */
